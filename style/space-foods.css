@@ -1,0 +1,151 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1604928844386-97d0ac6845fa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+    height: fit-content;
+    width: fit-content;
+    /*transform/repeat*/
+
+    
+}
+
+
+.navbar {
+    display: flex;
+    background-color: #000000;
+    justify-content: center;
+    overflow: visible;
+    /*overflow: hidden;*/ /*not compatible with sticky, height unconstrained*/
+    /*height: 60px;*/ /*counters overflow: hidden but not common practics*/
+    padding-left: 00px;
+    padding-bottom: 50px;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    /*margin-bottom: auto;*/
+}
+
+
+.navbar a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #808080;
+    padding: 13px;
+    font-size: 19px;
+    position: relative;
+    top: 20px;
+    border-radius: 5px;
+    border: 1px #000000;
+  
+}
+
+.navbar a:hover {
+    display: flex;
+    background-color: #333;
+    color: white;
+    padding: .5rem;
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-image: url("https://www.grahamsamuels.com/Images/gourmet_space_food.jpg");
+    height: 360px;
+    margin-top: 30px;
+    margin: auto;
+    width: 80%;
+    /*image repeat*/
+
+}
+
+
+.header {
+    color:White;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 5px;
+    top: 50px;
+    padding-top: 50px;
+   
+}
+
+
+
+
+.video-container {
+    background: #f9f9f9;
+    text-align: center;
+    height: 600px;
+    overflow: hidden;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 75px;
+}
+
+.row {
+  display: flex;  
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.column {
+    margin-right: 20px;
+}
+
+iframe {
+    border: 3px solid #021a40;
+    border-radius: 10px
+}
+
+.vid-desc {
+    text-align: left;
+    font-size: 18px;
+}
+.vid-desc2 {
+    text-align: left;
+    font-size: 18px;
+}
+
+html * {
+    font-family:'Roboto', sans-serif;
+}
+
+.input-container {
+    background: #f9f9f9;
+    text-align: left;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 75px;
+    height: 201px;
+}
+
+input {
+    float: left inline-start;
+    margin-left: 300px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+
+label {
+    text-align: left;
+    margin-left: 50px;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+html * {
+    font-family: 'Roboto', sans-serif;
+}
+
+iframe {
+    border: 3px solid #021a40;
+    border-radius: 10px
+}
