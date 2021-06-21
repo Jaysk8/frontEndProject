@@ -1,0 +1,104 @@
+body {
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: left;
+    background-color: black;
+    width: 100%;
+    padding: 40px;
+    position: sticky;
+    top: 0px;
+
+}
+
+/*.navbarContainer {
+    display: inline-flex;
+    position: relative;
+    margin-left: 21%;
+    justify-content:left;
+    float: left;
+}*/
+
+.navbarHome {
+    display: inline-flex;
+    position: relative;
+    /*margin-left: 20%;*/
+    justify-content:left;
+    float: left;
+    margin-left: 200px;
+    text-decoration: none;
+    font-size: 30px;
+    color: gray;
+
+}
+.navbarHome:hover {
+    color:honeydew;
+    background-color: rgb(147, 147, 147, .5);
+}
+
+.navbarCollapse {
+    float: left;
+    flex-grow: 1;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navbarCollapse > ul {
+    text-decoration: none;
+    margin: 0px;
+    flex-direction: row;
+}
+
+.navbarCollapse > ul > li {
+    float: left;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.nav-link {
+    text-decoration: none;
+    color: gray;
+}
+
+.nav-link:hover {
+    color:honeydew;
+    background-color: rgb(147, 147, 147, 0.5);
+    padding: 5px;
+    
+}
+
+.minervaApp {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    padding: 40px;
+    overflow: auto;
+}
+
+.containerApp {
+    justify-content: center;
+    background-color: rgb(70, 67, 67);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+   
+}
+
+.display2 {
+    font-size: 5.5rem;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.lead {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    color:whitesmoke;
+    margin-top: 2px;
+}
+
