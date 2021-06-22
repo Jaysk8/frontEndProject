@@ -1,0 +1,108 @@
+.container {
+    background-image: url("https://www.grahamsamuels.com/Images/gourmet_space_food.jpg");
+    height: 260px;
+    margin-top: 30px;
+    width: 100%
+}
+
+.header {
+    color:White;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 5px;
+    top: 50px;
+    padding-top: 50px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #808080;
+    text-align: center;
+    padding: 13px;
+    font-size: 19px;
+    position: relative;
+    top: 20px;
+    left: 130px
+}
+
+.navbar{
+    background-color: #333;
+    overflow: hidden;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin-bottom: auto;
+
+}
+
+.navbar a:hover {
+    background-color: #333;
+    color: white;
+}
+
+.video-container {
+    background: #f9f9f9;
+    text-align: center;
+    height: 600px;
+    overflow: hidden;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+
+
+.row {
+  display: flex;  
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.column {
+    margin-right: 5px;
+}
+
+iframe {
+    border: 3px solid #021a40;
+    border-radius: 10px
+}
+
+.vid-desc {
+    text-align: left;
+    font-size: 18px;
+}
+
+html * {
+    font-family:'Roboto', sans-serif;
+}
+
+.input-container {
+    background: #f9f9f9;
+    text-align: center;
+    width: 81%;
+    margin: auto;
+    height: 200px;
+}
+
+input {
+    float: left;
+    margin-left: 200px;
+}
+
+label {
+    float: left;
+}
+
+.sideNav{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.sideNav a {
+    text-decoration: none;
+    font-size: 20px
+}

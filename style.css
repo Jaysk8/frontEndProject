@@ -1,0 +1,16 @@
+/* body {
+    background-image: url("https://bit.ly/3wjHczV")
+} */
+
+.rounded {
+    height: 200px;
+    width: 320px;
+}
+
+.jumbotron {
+    background-image:url("https://bit.ly/3wjHczV");
+}
+
+#footer-list {
+    list-style-type: none;
+}
