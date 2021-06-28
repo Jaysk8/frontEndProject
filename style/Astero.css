@@ -1,0 +1,495 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+/* navbar */
+.navbar {
+    font-size: 18px;
+    background-color: #030591;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+    
+}
+.main-nav {
+    list-style-type: none;
+    display: none;
+}
+
+.nav-links,
+.logo {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.main-nav li {
+    text-align: center;
+    margin: 15px auto;
+}
+.logo {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer; 
+    color: rgba(255,255,255,0.8);
+    font-size: 24px;
+}
+
+.active{
+    display: block;
+}
+
+#logo {
+    position:relative;
+    padding-top: 8px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;  
+ }
+
+/* /navbar */
+
+/* sidebar */
+
+ .sidebar {
+    display:none;
+ }
+
+/* Header */
+
+  .section1 {
+    margin-bottom: 40px;
+      /* position: relative; /* realative positioning messes up the functionality of the navbar */
+  }
+
+ .head-img {
+       width: 375px;
+       height: 440px;
+       margin-bottom: 20px;
+   } 
+  
+  .head1 {
+       position: relative;
+       text-align: center;
+       top: 170px;
+       color: white;
+       font-size: 70px;
+   } 
+
+   /* /Header */
+
+   /* 1st Paragraph */
+
+   #phead {
+    position: relative;
+    bottom: 40px;
+    color: #030591;
+}
+
+
+ 
+ .section2 {
+    padding-left: 14px;
+}
+
+.pg1{
+    width: 335px;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative; 
+    bottom: 25px;
+}
+
+.ast-img {
+    width: 290px;
+    height: 290px;
+    border-radius: 20%;
+    position: relative;
+    left: 15px;
+}
+
+.minerva-sm {
+    position: relative;
+    bottom: 590px;
+    left: 50px;
+    color: white;
+} 
+
+/* /1st paragraph */
+
+/* 2nd paragraph */
+
+#phead2 {
+    color: #030591;
+    position: relative;
+    top: 20px;
+}
+
+.pg2 {
+    width: 335px;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    top: 35px
+}
+
+.section3 {
+    margin-bottom: 50px;
+    padding-left: 14px;
+}
+
+/* / 2nd paragraph */
+
+/* Related Content */
+
+.more-title {
+    padding-bottom: 19px;
+}
+
+ .more-1, .more-2 {
+    width: 174px;
+    height: 100px;
+    position: relative;
+    top: 10px;
+    right: 7px;
+    margin-bottom: 10px;
+} 
+
+.column {
+    float: left;
+    color: white;
+    background-color: #202020;
+    width: 50%;
+    padding: 10px;
+}
+/* /Related Content */
+
+/* Media Query For Ipad */
+
+/* Header */
+
+@media screen and (min-width: 768px) {
+    .head-img {
+        width: 800px;
+    }
+}
+
+/* / Header */
+
+/* 1st paragraph */
+
+@media screen and (min-width: 768px) {
+    #phead {
+        font-size: 30px
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pg1 {
+        font-size: 20px;
+        width: 700px
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ast-img {
+        width: 500px;
+        height: 500px;
+        position: relative;
+        left: 65px;
+        top: 30px
+    }
+}
+
+/* /1st paragraph */
+
+/* 2nd paragraph */
+
+@media screen and (min-width: 768px) {
+    .section3 {
+        padding-left: 14px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    #phead2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .pg2 {
+        font-size: 20px;
+        width: 700px;
+    }
+}
+
+/* / 2nd paragraph */
+
+/* Footer */
+
+@media screen and (min-width: 768px){
+    .column {
+        font-size: 23px;
+        padding-bottom: 15px;
+    }
+}
+
+/* /Footer */
+
+/* Media Queries for Desktops */
+
+@media screen and (min-width: 992px) {
+    .column {
+        padding-bottom: 10px;
+        position: relative;
+        bottom: 100px;
+        left: 240px;
+        width: 500px;
+        height: 250px;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .column:hover{
+        cursor: pointer;
+    }
+}
+
+
+/* Top Header */
+@media  screen and (min-width: 992px) {
+    .head-img {
+        width: 100%;
+        position: relative;
+        bottom: 120px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .head1{
+        z-index: 1;
+        font-size: 100px;
+    }
+}
+/* /Top Header */
+
+@media screen and (min-width: 992px) {
+    .section2, .section3 {
+        color: black;
+        font-size: 200px;
+        padding-left: 250px;
+        position: absolute;
+        /* right: 100px; */
+        /* z-index: 1; */
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #phead, #phead2 {
+        color: black;
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .ast-img {
+        position: relative;
+        right: 1000px;
+        width: 420px;
+        height: 420px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+.asteroid-cont {
+    position: relative;
+    right: 100px;
+    top: 50px;
+    right: 190px;
+    }
+}
+
+
+@media screen and (min-width: 992px){
+    .pg1 {
+        width: 500px;
+        position: relative; 
+        right: 160px;
+        top: 40px;
+        font-size: 18px;
+    }
+}
+
+ @media screen and (min-width: 992px){
+    .pg2 {
+       width: 500px;
+       position: relative;
+       right: 150px;
+       top: -230px
+    }
+} 
+
+@media screen and (min-width: 992px){
+    #phead2{
+        color: #030591;
+        position: relative;
+        top: -250px;
+        right: 200px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    #phead {
+        position: relative;
+        top: 20px;
+        right: 200px
+    }
+}
+
+
+
+
+
+/* Navbar */ 
+
+@media screen and (min-width: 992px) {
+    .navbar {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .navbar-toggle{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .main-nav {
+        font-size: 25px;
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .nav-links{
+        padding: 25px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .logo {
+        font-size: 30px;
+       position: absolute; 
+       right: 1700px
+    }
+}
+
+@media screen and (min-width: 992px){
+    .nav-links:hover {
+        background-color: #333;
+    color: white;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .logo:hover{
+        font-size: 35px;
+    }
+}
+
+/* /Navbar */
+
+@media screen and (min-width: 992px){
+    .sidebar{
+        display: block;
+        height: 100%;
+        width: 300px;
+        position: relative;
+        left: 670px;
+        z-index: 1;
+        /* top: 0;
+        right: -200; */
+        background-color: #DC143C;
+        overflow-x: hidden;
+        padding-top: 20px;
+        text-align: center;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .card {
+        width: 40%;
+        border-radius: 20%;
+        position: relative; 
+        left: 30px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container{
+        background-color: white;
+        width: 225px;
+        height: 45px;
+        border-radius: 5px;
+        text-align: center;
+        position: relative;
+        bottom: 10px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .galaxy, .comet, .planet, .black-hole {
+        border-radius: 5%;
+        height: 100px;
+        width: 223px
+    }
+    
+}
+
+@media  screen and (min-width: 992px) {
+    .sidebar-h3 {
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    
+}
+
+/* /Sidebar */
+
+@media screen and (min-width: 992px) {
+    .content {
+        background-color: white;
+        width: 650px;
+        height: 1000px;
+        border-radius: 20px;
+        left: 250px;
+        bottom: 100px;
+        position: relative;
+        z-index: 2;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: url("https://bit.ly/2TcipiO");
+    }
+}
