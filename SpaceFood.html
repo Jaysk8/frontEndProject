@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2c088768ec.js" crossorigin="anonymous"></script>
+
+    <link href="style/SpaceFood.css" rel="stylesheet" type="text/css">
+    <title>Minerva | Space Foods</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars"></i>
+        </span>
+            <a href="#" class="logo">Minerva</a>
+            <ul class="main-nav" id="js-menu">
+                <li>
+                    <a href="#" class="nav-links">Home</a>
+                </li>
+                <li>
+                    <a href="SpaceFood.html" class="nav-links">Space Foods</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-links">Mars Rover</a>
+                </li>
+                <li>
+                    <a href="Asteroids.html" class="nav-links">Asteroids</a>
+                </li>
+            </ul>
+    </nav>
+    <!-- /navbar -->
+
+    <div class="nav" id="topNav"> 
+        <div class="nav-list">
+        
+        <a href="#" class="nav-item1">Home</a>
+        <a href="MarsRover.html" class="nav-item">Mars Rover</a>
+        <a href="SpaceFood.html" class="nav-item">Space Food</a>
+        <a href="Asteroids.html" class="nav-item">Asteroids</a>
+        </div>
+        
+    </div>
+
+    <!-- header -->
+    <header class="header-img">
+        <div class="container">
+            <h1 class="space-foods">Space Foods</h1>
+        </div>
+    </header>
+    <!-- /header -->
+
+    <!-- content 1 -->
+
+    <div class="content1">
+        <h2 class="about-meals">Meals In Space</h2>
+        <p class="history">Throughout history, explorers and travelers have had to devise techniques for storing food and transporting adequate sustenance for their travels. This issue was particularly severe during the period when people traveled large distances by sailing ship. Dried foods and meals preserved in salt and brine were brought by great explorers such as Columbus, Magellan, and Cook.</p>
+        <p class="history">More recently, refrigeration and canning have provided solutions to the problem of food preservation. However, space travel required that new methods be devised for keeping foods edible. Foods taken into space must be light-weight, compact, tasty and nutritious.</p>
+        <img src="https://bit.ly/3AbbQha" class="glenn">
+        <span class="caption">During the Friendship 7 voyage in 1962, John Glenn, the first American to dine in space, ate applesauce. </span>
+    </div>
+    <!-- /content 1 -->
+
+    <div class="content-2">
+        <h2 class="different-foods">Different Foods In Space</h2>
+        <iframe width="280" height="200" src="https://www.youtube.com/embed/onm7P_iFueE" title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="vid">
+        </iframe>
+        <iframe width="280" height="200" src="https://www.youtube.com/embed/KjRwlVhqlOU" title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="vid-2">
+        </iframe>
+
+        <p class="history">NASA astronauts Jessica Meir and Andrew Morgan explain what type of food is on the International Space Station and how they prepare it. - From Apollo to Artemis — How Astronaut Food May Change When We Return to the Moon. In December of 2017, Astronauts at the International Space Station posted a video of their pizza party. The pizza ingredients were sent after Italian Astronaut Paolo Nespoli said how much he missed his favorite food</p>
+    </div>
+
+    <div class="food-gen">
+        <div class="card">
+        <h2 class="random-food">Random Food</h2>
+
+        <p class="prompt">Click the button to see what space food you get!</p>
+
+        <button id="btn">Get My Space Food</button>
+        </div>
+        
+        <div id="food"></div>
+    </div>
+
+    <script src="SpaceFood.js"></script>
+</body>
+</html>
