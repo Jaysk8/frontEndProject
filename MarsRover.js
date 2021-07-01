@@ -39,6 +39,7 @@ async function sendApiRequest(){
 // function with the parameter that passes the data into it
 function useApiData(data) {
     // selecting our div that we want the explanation of the image and the image that we want to be targeted
-    document.querySelector('#rover-img').innerHTML = `${data.explanation}`
+    document.querySelector('#explanation').innerHTML = `<p>${data.explanation}</p>`
     document.querySelector('#rover-img').innerHTML = `<img src="https://apod.nasa.gov/apod/image/2107/PIA24542_fig2_1100c.jpg">`
+    // console.log(data.explanation)
 }
